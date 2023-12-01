@@ -33,7 +33,12 @@ header {
     border: 1px solid black;
     display: grid;
     grid-template: 1fr 1fr/2fr 1fr;
-
+}
+.search-bar {
+    background-color: var(--blue-gray);
+    border-radius: 20px;
+    height: 35px;
+    width: 70%;
 }
 main {
     grid-column: 2/3;
@@ -46,4 +51,10 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 
+}
+.user-icon {
+    background-color: var(--orange);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
 }
