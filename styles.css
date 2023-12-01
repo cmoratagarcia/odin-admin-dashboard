@@ -25,6 +25,8 @@ body {
 header {
     grid-column: 2/3;
     border: 1px solid black;
+    display: grid;
+    grid-template: 1fr 1fr/2fr 1fr;
 
 }
 main {
