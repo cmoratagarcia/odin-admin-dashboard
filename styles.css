@@ -20,7 +20,13 @@ body {
 }
 .sidebar {
     grid-row: 1/3;
-    border: 1px solid black;
+   
+    background-color: var(--azure);
+    color: white;
+}
+
+.sidebar ul {
+    list-style: none;
 }
 header {
     grid-column: 2/3;
