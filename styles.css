@@ -6,7 +6,7 @@
     --orange: #c79125;
     --beige: #e5e7eb;
     --azure: #3882f6;
-    --blue-gray: #acb8ce;
+    --blue-gray: #dddee0;
     
 }
 
@@ -15,7 +15,7 @@ body {
     font-size: 20px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 3fr;
     grid-template-rows: 1fr 3fr;
 }
 .sidebar {
@@ -23,16 +23,19 @@ body {
     border: 1px solid black;
 }
 header {
-    grid-column: 2/4;
+    grid-column: 2/3;
     border: 1px solid black;
 
 }
 main {
-    grid-column: 2/4;
+    grid-column: 2/3;
     border: 1px solid black;
+    display: flex;
+    background-color: var(--blue-gray);
 }
 
-.projects-container {
-    display: flex;
-    border: 1px solid black;
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+
 }
