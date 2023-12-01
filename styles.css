@@ -14,6 +14,25 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 3fr;
+}
+.sidebar {
+    grid-row: 1/3;
+    border: 1px solid black;
+}
+header {
+    grid-column: 2/4;
+    border: 1px solid black;
+
+}
+main {
+    grid-column: 2/4;
+    border: 1px solid black;
 }
 
-
+.projects-container {
+    display: flex;
+    border: 1px solid black;
+}
