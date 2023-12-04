@@ -3,8 +3,8 @@
 }
 
 :root {
-    --orange: #c79125;
-    --beige: #e5e7eb;
+    --orange: #e9a00e;
+    --beige: #f6f7fa;
     --azure: #3882f6;
     --blue-gray: #dddee0;
     
@@ -58,15 +58,44 @@ main {
     display: flex;
     background-color: var(--blue-gray);
 }
-
-.cards-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-
-}
 .user-icon {
     background-color: var(--orange);
     border-radius: 50%;
     height: 50px;
     width: 50px;
+}
+
+.projects-container {
+    padding: 1em;
+}
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 1.2em;
+
+}
+
+.card {
+    background-color: var(--beige);
+    border-radius: 10px;
+    padding: 25px;
+    border-left: 10px solid var(--orange);
+}
+
+.card p {
+   
+    font-size: 0.8em;
+    color: #353434;
+    font-weight: lighter;
+}
+
+.bottom-icons {
+    display: flex;
+    justify-content: end;
+ margin: 40px 15px 15px 0;
+}
+
+.bottom-icons i {
+    margin-left: 30px;
+   
 }
