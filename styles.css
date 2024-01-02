@@ -60,6 +60,7 @@ header {
     grid-template: 1fr 1fr/2fr 1fr;
     padding: 5px 75px;
     font-weight: bold;
+    box-shadow: 5px lightgray;
   }
 
 .search-area, .greeting {
@@ -79,7 +80,7 @@ header {
      font-size: 0.8em;;
 }
 
-.user-handle {
+header .user-handle {
     font-size: 1.8em;
 
 }
@@ -124,22 +125,26 @@ header button {
 
 }
 /*Main*/
-h2 {
-    font-weight: normal;
-    font-size: 1.2em;
-}
-
-h3 {
-    font-size: 1.1em;
-}
 main {
     display: flex;
     background-color: var(--blue-gray);
 }
 
-.projects-container {
+h2 {
+    font-weight: normal;
+    font-size: 1.2em;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.1em;
+}
+
+.projects-container, .side-board {
     padding: 1em;
 }
+
 .cards-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
@@ -175,19 +180,35 @@ main {
     background-color: var(--beige);
     border-radius: 10px;
     box-shadow: 5px 5px 5px lightgray;
-    padding: 35px;
+    padding: 30px;
+
 
 }
 .side-board {
     width: 40%;
-    margin: 35px;
+    margin-right: 0.8em;
 }
 
 .announcements p, .announcements h4, h3 {
     margin: 0;
 }
 
+.announcements {
+    font-size: 0.7em;
+}
+
 hr {
     margin: 20px 0 20px 0;
     font-weight: lighter;
+}
+
+.trending-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.trending-item p {
+    margin: 5px;
 }
