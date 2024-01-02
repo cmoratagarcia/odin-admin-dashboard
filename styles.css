@@ -16,7 +16,7 @@ body {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: 1fr 5fr;
+    grid-template-rows: 1fr 6fr;
 }
 /*Side Dashboard*/
 .sidebar {
@@ -66,12 +66,10 @@ header {
     display: flex;
     align-items: center;
     gap: 15px;
-    border: 1px solid black;
 }
 
 .user-info {
-    border: 1px solid black;
-    display: flex;
+     display: flex;
     gap: 25px;
    align-items: center;
    justify-content: flex-end;
@@ -84,14 +82,12 @@ header {
     font-size: 24px;
 
 }
-
 .search-bar {
     background-color: var(--blue-gray);
     border-radius: 20px;
     height: 35px;
     width: 85%;
 }
-
 
 header button {
     border: none;
@@ -106,6 +102,7 @@ header button {
     padding: 15px;
     border-radius: 25px;
 }
+
 .buttons {
 display: flex;
 gap: 35px;
@@ -113,6 +110,7 @@ align-items: center;
 justify-content: flex-end;
 }
 
+/*Main*/
 main {
     grid-column: 2/3;
     display: flex;
