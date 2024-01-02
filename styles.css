@@ -109,18 +109,22 @@ gap: 35px;
 align-items: center;
 justify-content: flex-end;
 }
-
-/*Main*/
-main {
-    grid-column: 2/3;
-    display: flex;
-    background-color: var(--blue-gray);
-}
 .user-icon {
     background-color: var(--orange);
     border-radius: 50%;
     height: 50px;
     width: 50px;
+}
+
+.greeting .user-icon {
+    height: 70px;
+    width: 70px;
+}
+/*Main*/
+main {
+    grid-column: 2/3;
+    display: flex;
+    background-color: var(--blue-gray);
 }
 
 .projects-container {
