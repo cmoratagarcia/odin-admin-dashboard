@@ -32,7 +32,7 @@ h1 {
 }
 h1 i {
     margin-right: 15px;
-    font-size: 40px;
+    font-size: 1.2em;
 }
 
 .sidebar ul {
@@ -55,10 +55,10 @@ li {
 /*Header*/
 header {
     background-color: var(--beige);
-    grid-column: 2/3;
+    grid-column: 2/4;
     display: grid;
     grid-template: 1fr 1fr/2fr 1fr;
-    padding: 12px 50px;
+    padding: 5px 75px;
     font-weight: bold;
   }
 
@@ -69,17 +69,18 @@ header {
 }
 
 .user-info {
-     display: flex;
+    display: flex;
     gap: 25px;
-   align-items: center;
-   justify-content: flex-end;
-}
+    align-items: center;
+    justify-content: flex-end;
+    }
+
 .greeting {
-     font-size: 14px;
+     font-size: 0.8em;;
 }
 
 .user-handle {
-    font-size: 24px;
+    font-size: 1.8em;
 
 }
 .search-bar {
@@ -104,11 +105,12 @@ header button {
 }
 
 .buttons {
-display: flex;
-gap: 35px;
-align-items: center;
-justify-content: flex-end;
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    justify-content: flex-end;
 }
+
 .user-icon {
     background-color: var(--orange);
     border-radius: 50%;
@@ -119,8 +121,17 @@ justify-content: flex-end;
 .greeting .user-icon {
     height: 70px;
     width: 70px;
+
 }
 /*Main*/
+h2 {
+    font-weight: normal;
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1.1em;
+}
 main {
     display: flex;
     background-color: var(--blue-gray);
@@ -133,13 +144,12 @@ main {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
     gap: 1.2em;
-
 }
 
 .card {
     background-color: var(--beige);
     border-radius: 10px;
-    padding: 25px;
+    padding: 30px;
     border-left: 10px solid var(--orange);
     box-shadow: 5px 5px 5px lightgray;
 }
@@ -173,7 +183,7 @@ main {
     margin: 35px;
 }
 
-.announcements p, .announcements h4 {
+.announcements p, .announcements h4, h3 {
     margin: 0;
 }
 
