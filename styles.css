@@ -15,7 +15,7 @@ body {
     font-size: 20px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr 5fr;
 }
 .sidebar {
@@ -25,11 +25,15 @@ body {
     font-weight: bold;
     padding-left: 2em;
  }
-
+h1 {
+    display: flex;
+    align-items: center;
+}
 h1 i {
     margin-right: 15px;
-    font-size: 30px;
+    font-size: 40px;
 }
+
 .sidebar ul {
     list-style: none;
     padding: 0;
@@ -38,9 +42,14 @@ h1 i {
 li {
     display: grid; /*Using grid here as per the project instructions*/
     grid-template-columns: 1fr 4fr;
+    max-height: 60px;
+ 
     align-items: center;
+    font-size: 26px;
 }
-
+.bottom-nav {
+    margin-top: 50px;
+}
 header {
     background-color: var(--beige);
     grid-column: 2/3;
@@ -52,7 +61,7 @@ header {
 }
 
 .search-area, .greeting {
-       display: flex;
+    display: flex;
     align-items: center;
     gap: 15px;
     border: 1px solid black;
