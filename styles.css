@@ -44,10 +44,10 @@ li {
     display: grid; /*Using grid here as per the project instructions*/
     grid-template-columns: 1fr 4fr;
     max-height: 60px;
- 
-    align-items: center;
+     align-items: center;
     font-size: 26px;
 }
+
 .bottom-nav {
     margin-top: 50px;
 }
@@ -58,10 +58,11 @@ header {
     grid-column: 2/4;
     display: grid;
     grid-template: 1fr 1fr/2fr 1fr;
-    padding: 5px 75px;
+    padding: 10px 75px;
     font-weight: bold;
-    box-shadow: 5px lightgray;
-  }
+    margin-bottom: 7px;
+    box-shadow: 0 7px 5px 0px  lightgray;
+}
 
 .search-area, .greeting {
     display: flex;
@@ -128,6 +129,7 @@ header button {
 main {
     display: flex;
     background-color: var(--blue-gray);
+
 }
 
 h2 {
