@@ -3,6 +3,7 @@
 }
 
 :root {
+    --yellow-orange: #f0cc58;
     --orange: #e9a00e;
     --beige: #fbfbfc;
     --azure: #3882f6;
@@ -61,7 +62,7 @@ header {
     padding: 10px 75px;
     font-weight: bold;
     margin-bottom: 7px;
-    box-shadow: 0 7px 5px 0px  lightgray;
+    box-shadow: 0 8px 5px -1px  lightgray;
 }
 
 .search-area, .greeting {
@@ -114,7 +115,7 @@ header button {
 }
 
 .user-icon {
-    background-color: var(--orange);
+    background-color: var(--yellow-orange);
     border-radius: 50%;
     height: 50px;
     width: 50px;
