@@ -58,6 +58,7 @@ header {
     background-color: var(--beige);
     grid-column: 2/4;
     display: grid;
+    row-gap: 20px;
     grid-template: 1fr 1fr/2fr 1fr;
     padding: 10px 75px;
     font-weight: bold;
