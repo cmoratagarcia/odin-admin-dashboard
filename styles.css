@@ -221,7 +221,7 @@ hr {
     display: flex;
     align-items: center;
     gap: 15px;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 .trending-item .user-icon {
     background-image: url('user-avatar.jpg');
