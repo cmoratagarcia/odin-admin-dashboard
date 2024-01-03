@@ -107,6 +107,7 @@ header button {
     width: 110px;
     padding: 15px;
     border-radius: 25px;
+    cursor: pointer;
 }
 
 .buttons {
@@ -114,6 +115,7 @@ header button {
     gap: 35px;
     align-items: center;
     justify-content: flex-end;
+  
 }
 
 .user-icon {
