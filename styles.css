@@ -86,6 +86,7 @@ header .user-handle {
     font-size: 1.8em;
 
 }
+
 .search-bar {
     background-color: var(--blue-gray);
     border-radius: 20px;
@@ -119,12 +120,22 @@ header button {
     border-radius: 50%;
     height: 50px;
     width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.fa-user {
+    color: white;
+
+}
 .greeting .user-icon {
     height: 70px;
     width: 70px;
+}
 
+.greeting .user-icon .fa-user {
+    font-size: 30px;
 }
 /*Main*/
 main {
@@ -211,7 +222,13 @@ hr {
     gap: 15px;
     margin-top: 15px;
 }
-
+.trending-item .user-icon {
+    background-image: url('user-avatar.jpg');
+    background-size:cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
 .trending-item p {
     margin: 5px;
 }
+
